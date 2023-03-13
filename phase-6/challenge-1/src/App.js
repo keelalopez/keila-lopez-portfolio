@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function App() {
-  const [nestedObjected, setNestedObject] = useState({
+  const [nestedObject, setNestedObject] = useState({
     taxi: "a car licensed to transport passengers in return for payment of a fare",
     food: {
       sushi:
@@ -16,15 +16,17 @@ function App() {
 
   return (
     <div style={{ margin: "auto", width: "70%", paddingTop: 40 }}>
-      <DisplayNested nestedObjected={nestedObjected} />
+      <DisplayNested nestedObject={nestedObject} />
     </div>
   );
 }
 
-const DisplayNested = ({ nestedObjected }) => {
+
+
+const DisplayNested = ({ nestedObject }) => {
   return (
     // YOUR CODE HERE
-    
+
   );
 };
 
