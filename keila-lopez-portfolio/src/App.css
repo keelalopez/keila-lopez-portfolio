@@ -1,3 +1,7 @@
+/* FONTS */
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -27,4 +31,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* ---------------------       HEADER ------------------ */
+.header {
+  display: flex;
+  flex-direction: row;
+  /* margin: 2%; */
+  justify-content: flex-end;
+  font-family: 'DM Serif Display', serif;
+  color: #DEB5E4;
+  background-color: #745151;
+}
+
+/* .k {
+  background-color: rgb(126, 43, 43);
+  display: flex;
+  justify-content: flex-start;
+} */
+
+.menu {
+  writing-mode: vertical-rl;text-orientation: mixed;
+  margin: 2%;
+  font-size: 12px;
 }
