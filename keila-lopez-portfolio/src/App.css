@@ -109,6 +109,10 @@
   background-color: salmon;
 }
 
+.skills-detail-div {
+  display: flex;
+  flex-direction: row;
+}
 /* ---------------------       CERTIFICATES       ------------------ */
 .certificates-container {
   background-color: coral;
