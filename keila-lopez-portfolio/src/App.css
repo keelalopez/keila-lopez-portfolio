@@ -59,7 +59,7 @@
 /* ---------------------       COVER       ------------------ */
 .cover-container {
   background-color: purple;
-  /* margin: 0px; */
+  padding: 10%;
   display: flex;
   flex-direction: row;
 }
@@ -67,6 +67,18 @@
 .cover-container img {
   width: 300px;
 }
+
+.cover-container div {
+  padding: 3%;
+  width: 70%;
+}
+
+.cover-container h1 {
+  font-family: 'DM Serif Display', serif;
+  color: #DEB5E4;
+}
+
+
 
 /* ---------------------       ABOUT       ------------------ */
 .about-container {
