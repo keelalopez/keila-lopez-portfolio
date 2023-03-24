@@ -2,7 +2,7 @@
 
 function Certificates () {
     return (
-        <div>
+        <div className="certificates-container">
             <p>Certificates</p>
         </div>
     )

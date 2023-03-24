@@ -1,7 +1,7 @@
 
 function Skills () {
     return (
-        <div>
+        <div className="skills-container">
             Skills
         </div>
     )

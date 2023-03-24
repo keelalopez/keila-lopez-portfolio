@@ -55,3 +55,32 @@
   margin: 2%;
   font-size: 12px;
 }
+
+/* ---------------------       COVER       ------------------ */
+.cover-container {
+  background-color: purple;
+}
+
+/* ---------------------       ABOUT       ------------------ */
+.about-container {
+  background-color: aquamarine;
+}
+
+/* ---------------------       PROJECTS       ------------------ */
+.project-container{
+  background-color: plum;
+}
+
+.project-card {
+  background-color: cadetblue;
+}
+
+/* ---------------------       SKILLS       ------------------ */
+.skills-container {
+  background-color: salmon;
+}
+
+/* ---------------------       CERTIFICATES       ------------------ */
+.certificates-container {
+  background-color: coral;
+}
