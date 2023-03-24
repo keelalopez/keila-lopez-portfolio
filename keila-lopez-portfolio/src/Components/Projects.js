@@ -2,14 +2,11 @@
 function Projects () {
     return (
         <div className="project-container">
-            <div>
-                Brix
-            </div>
-            <div>
-                Dough
-            </div>
-            <div>
-                Casa Maya
+            <div className="project-card">
+                <p>Repo | Demo</p>
+                <img />
+                <h3>Brix</h3>
+                <p>A Fullstack procurement application</p>
             </div>
         </div>
     )
