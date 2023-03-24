@@ -96,6 +96,8 @@
 /* ---------------------       PROJECTS       ------------------ */
 .project-container{
   background-color: plum;
+  display: flex;
+  flex-direction: row;
 }
 
 .project-card {
