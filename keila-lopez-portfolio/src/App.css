@@ -3,6 +3,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
 
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
 .App {
   background-color: #745151;
   min-height: 100vh;
@@ -54,6 +60,8 @@
 .cover-container {
   background-color: purple;
   /* margin: 0px; */
+  display: flex;
+  flex-direction: row;
 }
 
 .cover-container img {
